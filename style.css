@@ -108,9 +108,14 @@ body {
     cursor: pointer;
 }
 
-.btn-a:first-child {
+.container_right .login .btn {
     margin-right: 10px;
 }
+
+.container_right .login .btn.btn_orange {
+    margin-right: 0;
+}
+
 
 .btn:hover {
     background-color: #000;
@@ -680,6 +685,11 @@ body {
 /*adapt*/
 
 @media (max-width: 1290px) {
+
+    .nav-inner_link {
+        margin-right: 50px;
+    }
+
     .container {
         padding: 0 20px;
         flex-direction: column;
@@ -703,27 +713,46 @@ body {
 
     .section-title {
         text-align: center;
+        font-size: 33px;
+        max-width: 100%;
+    }
+
+    .section-subtitle {
+        font-size: 25px;
+        max-width: 99%;
     }
 
     .section-first {
-        max-width: none;
+        max-width: 100%;
     }
 
     .section-img_big {
         margin-right: auto;
         margin-left: auto;
+        width: 95%;
+    }
+
+    .section-img_big_width {
+        max-width: 75%;
     }
 
     .section-title_second {
         text-align: center;
+        font-size: 28px;
+    }
+
+    .section-brand {
+        padding: 50px 0;
     }
 
     .section-brand-content  {
-        margin-top: 3%;
+        margin-top: 15px;
+        flex-wrap: wrap;
+        max-width: 100%;
     }
 
     .section-brand-content_link {
-        margin-right: 1%;
+        margin: 5%;
     }
 
     .section-control-inner {
@@ -735,7 +764,18 @@ body {
     }
 
     .section-img {
-        width: 100%;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .section-img img {
+        max-width: 100%;
+        margin-right: 0;
+    }
+
+    .section-title_second_m {
+        margin-bottom: 10px;
     }
 
     .section-control-inner_margin {
@@ -743,12 +783,16 @@ body {
     }
 
     .section-control {
-        padding-bottom: 50px;
+        padding: 50px 0;
     }
 
     .container-section-main-info {
-        flex-direction: column;
         align-items: center;
+        justify-content: space-around;
+    }
+
+    .section-main-info_inner {
+        margin: 0;
     }
 
     .section-main-info {
@@ -756,13 +800,29 @@ body {
         padding-top: 50px;
     }
 
+    .section-main-info_title_second {
+        margin: 20px 0;
+    }
+
+    .section-main-info_inner_second {
+        max-width: 90%;
+    }
+
     .section-about-article {
         max-width: 100%;
+        font-size: 26px;
+        line-height: 33px;
+    }
+
+    .section-about-best {
+        padding: 50px 0;
     }
 
     .section-about-best-title {
         margin-right: 0;
         margin-bottom: 20px;
+        font-size: 30px;
+        line-height: 35px;
     }
 
     .container-left-section-about-best {
