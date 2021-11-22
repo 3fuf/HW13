@@ -875,5 +875,35 @@ body {
 }
 
 @media (max-width: 768px) {
+    .header {
+        padding: 15px 0;
+        border-bottom: none;
+    }
 
+    .container_left {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .logo {
+        margin: 0 0 10px 0;
+    }
+
+    .nav-inner {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .nav-inner_link {
+        margin: 3%;
+    }
+
+    .login {
+        display: block;
+    }
+
+    .container_right .login .btn {
+        margin: 0 0 10px 0;
+        width: 100%;
+    }
 }
