@@ -908,6 +908,7 @@ body {
 
     .footer-nav-inner {
         margin-right: 1%;
+        max-width: 100%;
     }
 
     .section-about-best-icon-container {
@@ -1226,5 +1227,9 @@ body {
     .footer-copyrigh-desc {
         margin-left: 0;
         line-height: 14px;
+    }
+
+    .footer-nav-inner {
+        max-width: 113px;
     }
 }
