@@ -817,7 +817,7 @@ body {
 
     .section-main-info_inner {
         margin: 0;
-        max-width: 50%;
+        max-width: 26%;
     }
 
     .section-main-info {
@@ -1262,5 +1262,9 @@ body {
 
     .section-img {
         max-width: 90%;
+    }
+
+    .section-main-info_inner {
+        max-width: 50%;
     }
 }
