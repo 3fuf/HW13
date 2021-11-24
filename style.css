@@ -450,7 +450,7 @@ body {
 }
 
 .section-about-best-icon {
-    width: 176px;
+    max-width: 176px;
     margin-right: 67px;
 }
 
@@ -846,14 +846,14 @@ body {
     }
 
     .section-about-best {
-        padding: 50px 0;
+        padding: 20px 0;
     }
 
     .section-about-best-title {
         margin-right: 0;
         margin-bottom: 20px;
-        font-size: 30px;
-        line-height: 35px;
+        font-size: 24px;
+        line-height: 28px;
     }
 
     .container-left-section-about-best {
@@ -866,8 +866,14 @@ body {
     }
 
     .section-about-best-icon {
+        display: block;
         margin-right: 0;
         margin-bottom: 20px;
+        max-width: 100%;
+    }
+
+    .section-about-icon_img {
+        max-width: 70%;
     }
 
     .section-about-title {
@@ -902,6 +908,10 @@ body {
 
     .footer-nav-inner {
         margin-right: 20px;
+    }
+
+    .section-about-best-icon-container {
+        margin-right: 0;
     }
 }
 
@@ -1074,8 +1084,8 @@ body {
     }
 
     .section-about-article {
-        font-size: 18px;
-        line-height: 24px;
+        font-size: 16px;
+        line-height: 20px;
         margin-bottom: 10px;
     }
 
@@ -1094,5 +1104,45 @@ body {
 
     .section-about-icon_img {
         max-width: 50%;
+    }
+
+    .section-about-best-icon {
+        margin-bottom: 10px;
+    }
+
+    .section-about-best-title {
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 10px;
+    }
+
+    .container-right-section-about-best {
+        flex-direction: column;
+    }
+
+    .section-about-integrations-pic {
+        margin-bottom: 20px;
+        max-width: 80%;
+    }
+
+    .section-about-integrations {
+        padding: 20px 0;
+    }
+
+    .section-title {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .section-about-sell {
+        padding: 20px 0;
+    }
+
+    .section-about-sell .section-main-info_desc_second {
+        margin-bottom: 12px;
+    }
+
+    .btn.btn_orange.btn_black {
+        font-size: 12px;
     }
 }
