@@ -708,18 +708,21 @@ body {
     }
 
     .section {
-        padding: 50px 0;
+        padding: 20px 0;
     }
 
     .section-title {
         text-align: center;
         font-size: 33px;
         max-width: 100%;
+        margin-bottom: 20px;
     }
 
     .section-subtitle {
-        font-size: 25px;
+        font-size: 20px;
+        line-height: 25px;
         max-width: 99%;
+        margin-bottom: 20px;
     }
 
     .section-first {
@@ -739,10 +742,12 @@ body {
     .section-title_second {
         text-align: center;
         font-size: 28px;
+        line-height: 35px;
+        margin-bottom: 10px;
     }
 
     .section-brand {
-        padding: 50px 0;
+        padding: 20px 0;
     }
 
     .section-brand-content  {
@@ -761,6 +766,9 @@ body {
 
     .section-desc {
         width: 100%;
+        font-size: 18px;
+        line-height: 26px;
+        padding: 0;
     }
 
     .section-img {
@@ -783,7 +791,11 @@ body {
     }
 
     .section-control {
-        padding: 50px 0;
+        padding: 20px 0;
+    }
+
+    .section-control:last-child {
+        padding: 20px 0;
     }
 
     .container-section-main-info {
@@ -965,5 +977,22 @@ body {
 
     .section-brand-content_link_img {
         max-width: 80%;
+    }
+
+    .section-control {
+        padding: 20px 0;
+    }
+
+    .section-desc {
+        font-size: 14px;
+        line-height: 20px;
+        padding: 0;
+        margin-bottom: 10px;
+    }
+
+    .section_link {
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 10px;
     }
 }
