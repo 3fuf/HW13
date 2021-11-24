@@ -685,10 +685,6 @@ body {
 
 @media (max-width: 1290px) {
 
-    .header {
-        margin-bottom: 10px;
-    }
-
     .section-main-info_link_images {
         max-height: 100px;
     }
@@ -727,7 +723,7 @@ body {
     }
 
     .section {
-        padding: 0;
+        padding: 20px 0 0 0;
         margin-bottom: 10px;
     }
 
@@ -921,7 +917,6 @@ body {
 
     .header {
         padding: 20px 0 10px 0;
-        border-bottom: none;
     }
 
     .container_left {
@@ -933,13 +928,17 @@ body {
         margin: 0 0 10px 0;
     }
 
+    .nav {
+        margin-bottom: 5px;
+    }
+
     .nav-inner {
         flex-wrap: wrap;
         justify-content: space-evenly;
     }
 
     .nav-inner_link {
-        margin: 3%;
+        margin: 2%;
     }
 
     .btn {
@@ -986,7 +985,7 @@ body {
     }
 
     .section-brand {
-        padding: 10px 0;
+        padding: 20px 0;
     }
 
     .section-title_second {
@@ -1023,7 +1022,7 @@ body {
     }
 
     .section-img {
-        max-width: 60%;
+        max-width: 70%;
     }
 
     .section_link {
@@ -1063,5 +1062,37 @@ body {
         font-size: 12px;
         line-height: 14px;
         margin-bottom: 10px;
+    }
+
+    .section-desc_link_desc_second {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .section-about {
+        padding: 20px 0;
+    }
+
+    .section-about-article {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 10px;
+    }
+
+    .section-about-desc {
+        font-size: 13px;
+        line-height: 18px;
+    }
+    .section-about-title {
+        margin-bottom: 10px;
+    }
+
+    .section-about-icon {
+        display: block;
+        max-width: 100%;
+    }
+
+    .section-about-icon_img {
+        max-width: 50%;
     }
 }
