@@ -400,7 +400,6 @@ body {
     margin-bottom: 54px;
 }
 
-
 .section-desc_link_desc_second {
     font-size: 20px;
     line-height: 30px;
@@ -469,27 +468,24 @@ body {
 }
 
 .section-about-best-icon-container {
-    width: 128px;;
+    max-width: 128px;;
     margin-right: 70px;
 }
 
-.section-about-best-icon-container:last-child {
-    width: 150px;
-}
-
-.section-about-best-icon-container:last-child {
+.section-about-best-icon-container_m {
     margin-right: 0;
 }
 
+
 .section-about-best-icon-container_first {
-    width: 35px;
-    height: 35px;
+    max-width: 35px;
+    max-height: 35px;
     margin-bottom: 20px;
 }
 
 .section-about-best-icon-container_img {
     margin-bottom: 20px;
-    width: 100%;
+    max-width: 128px;
 }
 
 .section-about-best-icon-container_second {
@@ -497,7 +493,6 @@ body {
 }
 
 .section-about-best-icon-container_stars {
-    max-width: 128px;
     margin-bottom: 15px;
 }
 
@@ -911,7 +906,7 @@ body {
         max-width: 100%;
     }
 
-    .section-about-best-icon-container {
+    .section-about-best-icon-container_m {
         margin-right: 0;
     }
 
@@ -969,9 +964,19 @@ body {
     .footer-copyrigh {
         padding-top: 20px;
     }
+
 }
 
 @media (max-width: 768px) {
+
+    .section-about-best-icon-container {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .section-about-best-icon-container:last-child {
+        margin-bottom: 0;
+    }
 
     .container {
         flex-direction: column;
@@ -1073,7 +1078,7 @@ body {
     }
 
     .section-brand-content_link_img {
-        max-width: 80%;
+        max-width: 75%;
     }
 
     .section-control {
@@ -1222,6 +1227,7 @@ body {
 
     .container-left-footer-copyrigh {
         flex-direction: column;
+        margin-bottom: 5px;
     }
 
     .footer-copyrigh-desc {
@@ -1231,5 +1237,25 @@ body {
 
     .footer-nav-inner {
         max-width: 113px;
+    }
+
+    .section-about-best-icon-container_stars {
+        margin-bottom: 0;
+    }
+
+    .section-about-best-icon-container_img {
+        margin-bottom: 1px;
+        max-width: 120px;
+    }
+
+    .section-about-best-icon-container_desc {
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    .section-about-best-icon-container_first {
+        max-width: 30px;
+        max-height: 30px;
+        margin-bottom: 10px;
     }
 }
