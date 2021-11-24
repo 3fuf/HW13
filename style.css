@@ -719,7 +719,6 @@ body {
 
     .section {
         padding: 20px 0 0 0;
-        margin-bottom: 10px;
     }
 
     .section-title {
@@ -831,13 +830,14 @@ body {
     }
 
     .section-main-info_inner_second {
-        max-width: 50%;
+        max-width: 38%;
     }
 
     .section-about-article {
         max-width: 100%;
         font-size: 26px;
         line-height: 33px;
+        margin-right: 20px;
     }
 
     .section-about-best {
@@ -854,6 +854,7 @@ body {
     .container-left-section-about-best {
         border-right: none;
         flex-direction: column;
+        margin-right: 25px;
     }
 
     .container-right-section-about-best {
@@ -1257,5 +1258,9 @@ body {
         max-width: 30px;
         max-height: 30px;
         margin-bottom: 10px;
+    }
+
+    .section-img {
+        max-width: 90%;
     }
 }
