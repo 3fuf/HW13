@@ -371,7 +371,7 @@ body {
 }
 
 .section-main-info_link_images {
-    height: 201px;
+    max-height: 200px;
 }
 
 .section-main-info_inner_second {
@@ -685,16 +685,36 @@ body {
 
 @media (max-width: 1290px) {
 
+    .header {
+        margin-bottom: 10px;
+    }
+
+    .section-main-info_link_images {
+        max-height: 100px;
+    }
+
+    .section-main-info_link {
+        max-width: 100px;
+    }
+
     .nav-inner_link {
         margin-right: 50px;
     }
 
     .container {
         padding: 0 20px;
-        flex-direction: column;
         text-align: center;
         align-items: center;
     }
+
+    .header .container {
+        flex-direction: column;
+    }
+
+    .section .container {
+        flex-direction: column;
+    }
+
 
     .container_right {
         justify-content: space-evenly;
@@ -707,7 +727,8 @@ body {
     }
 
     .section {
-        padding: 20px 0;
+        padding: 0;
+        margin-bottom: 10px;
     }
 
     .section-title {
@@ -715,6 +736,7 @@ body {
         font-size: 33px;
         max-width: 100%;
         margin-bottom: 20px;
+        line-height: 38px;
     }
 
     .section-subtitle {
@@ -761,6 +783,7 @@ body {
 
     .section-control-inner {
         padding-right: 0;
+        max-width: 50%;
     }
 
     .section-desc {
@@ -771,7 +794,7 @@ body {
     }
 
     .section-img {
-        width: 70%;
+        width: 90%;
         margin-left: auto;
         margin-right: auto;
     }
@@ -804,6 +827,7 @@ body {
 
     .section-main-info_inner {
         margin: 0;
+        max-width: 50%;
     }
 
     .section-main-info {
@@ -816,7 +840,7 @@ body {
     }
 
     .section-main-info_inner_second {
-        max-width: 90%;
+        max-width: 50%;
     }
 
     .section-about-article {
@@ -887,8 +911,12 @@ body {
 
 @media (max-width: 768px) {
 
-    .section-img img {
-        max-width: 70%;
+    .container {
+        flex-direction: column;
+    }
+
+    .section-control-inner {
+        max-width: 100%;
     }
 
     .header {
@@ -989,9 +1017,13 @@ body {
 
     .section-desc {
         font-size: 14px;
-        line-height: 20px;
+        line-height: 16px;
         padding: 0;
         margin-bottom: 10px;
+    }
+
+    .section-img {
+        max-width: 60%;
     }
 
     .section_link {
@@ -1019,5 +1051,17 @@ body {
     .section-main-info_desc {
         font-size: 12px;
         line-height: 16px;
+    }
+
+    .section-main-info_title_second {
+        font-size: 14px;
+        line-height: 18px;
+        margin: 0 0 10px 0;
+    }
+
+    .section-main-info_desc_second {
+        font-size: 12px;
+        line-height: 14px;
+        margin-bottom: 10px;
     }
 }
